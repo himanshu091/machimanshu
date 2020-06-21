@@ -1,0 +1,144 @@
+.nav-wrapper {
+  background-color: black;
+  
+  
+}
+.brand-logo {
+  margin-left: 10px;
+}
+.carousel {
+  width: 100%;
+  top: 0em;
+}
+.carousel carousel-slider {
+  top: 0em;
+}
+.card {
+  height: 700;
+  padding: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.orderStats {
+  font-size: large;
+  font-style: normal;
+}
+.button {
+  border-radius: 4px;
+  background-color: #25CCF7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: right;
+ 
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.input-field {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+}
+.send {
+background-color: #25CCF7;
+
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  float: center;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.noti {
+  margin-top: 3.5%;
+}
+
+.tab {
+ width: 85%;
+ margin-left: 7.5%;
+ margin-right: 7.5%;
+}
+.margin {
+  margin-top: 3%;
+}
+.block {
+  color: #FFFFFF;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #FF3031;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.bottomButton { 
+  margin: 2%;
+}
+.edit {
+float: right;
+position: absolute;
+}
